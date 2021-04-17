@@ -1,0 +1,261 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "username": "neeraj.verma@hcl.com",
+      "password": "1234",
+      "name": "Neeraj Verma",
+      "admin": true
+    },
+    {
+      "id": 2,
+      "username": "admin@rediffmail.com",
+      "password": "2345",
+      "name": "Admin",
+      "admin": true
+    },
+    {
+      "username": "mahi@gmail.com",
+      "password": "mahi",
+      "name": "Mahi",
+      "admin": false,
+      "id": 3
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "type": "Current Account",
+      "description": "Flexible Current account",
+      "createdAt": "Wed, 14 Dec 2016 04:11:52 GMT",
+      "updatedAt": null,
+      "accountNo": "90911675465",
+      "owner": {
+        "id": "81763a81-71c9-4dcb-aa94-3fb433586076",
+        "createdAt": "Wed, 14 Dec 2016 04:11:52 GMT",
+        "updatedAt": null,
+        "email": "Neeraj.verma@hcl.com",
+        "name": "Neeraj Verma"
+      },
+      "balance": 120000,
+      "transactions": [
+        {
+          "id": "71b3d5de-c3b5-4c9d-b8b4-d3d87a57e390",
+          "type": "credit",
+          "timestamp": "2016-12-13T15:07:58.595Z",
+          "currency": "INR",
+          "amount": 2000,
+          "balanceBefore": 120000,
+          "balanceAfter": 122000
+        },
+        {
+          "id": "5e05b75d-1436-40bd-b995-ff19d7a08c85",
+          "type": "credit",
+          "timestamp": "2016-12-12T10:28:30.424Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 122000,
+          "balanceAfter": 123000
+        },
+        {
+          "id": "e27370db-a839-4daf-a932-228fb5409d32",
+          "type": "credit",
+          "timestamp": "2016-12-11T08:36:39.663Z",
+          "currency": " INR",
+          "amount": 7000,
+          "balanceBefore": 122000,
+          "balanceAfter": 130000
+        },
+        {
+          "id": "de260425-7cbd-4440-a943-192ae8780413",
+          "type": "Credit",
+          "timestamp": "2016-12-09T19:42:31.745Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 130000,
+          "balanceAfter": 131000
+        },     
+        {
+          "id": "f1f6cec2-fd94-4f39-9036-579627ff51aa",
+          "type": "credit",
+          "timestamp": "2016-10-14T03:13:06.272Z",
+          "currency": "INR",
+          "amount": 9000,
+          "balanceBefore": 131000,
+          "balanceAfter": 140000
+        },
+        {
+          "id": "098a8776-8b1e-4304-b698-157d416014fa",
+          "type": "credit",
+          "timestamp": "2016-10-13T13:42:47.666Z",
+          "currency": "INR",
+          "amount": 2000,
+          "balanceBefore": 140000,
+          "balanceAfter": 142000
+        },
+        {
+          "id": "2752fec9-9a7a-4a89-82f0-b306bff4afc8",
+          "type": "credit",
+          "timestamp": "2016-10-12T05:52:08.653Z",
+          "currency": "INR",
+          "amount": 8000,
+          "balanceBefore": 142000,
+          "balanceAfter": 150000
+        },
+        {
+          "id": "d547a2a0-c797-40d0-85e0-9c3c38ae5dd8",
+          "type": "credit",
+          "timestamp": "2016-10-11T15:21:56.210Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 150000,
+          "balanceAfter": 151000
+        },
+        {
+          "id": "67d13280-42a7-42dd-bd13-ea2e8a8e8672",
+          "type": "debit",
+          "timestamp": "2016-10-09T17:25:20.946Z",
+          "currency": "INR",
+          "amount": 100000,
+          "balanceBefore": 151000,
+          "balanceAfter": 51000
+        },
+        {
+          "id": "78d148b2-81bc-44a2-a5eb-08fced645955",
+          "type": "credit",
+          "timestamp": "2016-10-08T17:11:46.233Z",
+          "currency": "INR",
+          "amount": 10000,
+          "balanceBefore": 51000,
+          "balanceAfter": 61000
+        },
+        {
+          "id": "c53e600b-fe0d-4c7a-8f23-2506ad6ab094",
+          "type": "credit",
+          "timestamp": "2016-10-08T01:39:37.879Z",
+          "currency": "INR",
+          "amount": 4000,
+          "balanceBefore": 61000,
+          "balanceAfter": 65000
+        },
+        {
+          "id": "7d16ccc3-8493-4f08-96e6-5227dc5dd163",
+          "type": "credit",
+          "timestamp": "2016-10-06T18:40:41.554Z",
+          "currency": "INR",
+          "amount": 5000,
+          "balanceBefore": 65000,
+          "balanceAfter": 70000
+        },
+        {
+          "id": "32576115-f12d-44fd-b51a-b63847f35ff4",
+          "type": "credit",
+          "timestamp": "2016-10-02T19:53:57.507Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 70000,
+          "balanceAfter": 71000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Current Account",
+      "description": "Low fee account",
+      "createdAt": "Wed, 17 JAN 2019 14:45:23 GMT",
+      "updatedAt": null,
+      "accountNo": "90911555756",
+      "owner": {
+        "id": "81763a81-71c9-4dcb-aa94-3fb433586076",
+        "createdAt": "Wed, 14 Dec 2016 04:11:52 GMT",
+        "updatedAt": null,
+        "email": "mahi@gmail.com",
+        "name": "mahi"
+      },
+      "balance": 10000,
+      "transactions": [
+        {
+          "id": "545d8601-26ae-4f67-bc94-ee056a3f56ef",
+          "type": "debit",
+          "timestamp": "2016-12-13T12:40:38.246Z",
+          "currency": "INR",
+          "amount": 3000,
+          "balanceBefore": 10000,
+          "balanceAfter": 7000
+        },
+        {
+          "id": "10213492-70c2-4c78-b5cf-83db6935f489",
+          "type": "debit",
+          "timestamp": "2016-12-12T08:23:06.137Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 7000,
+          "balanceAfter": 6000
+        },
+        {
+          "id": "d53e4141-b45f-4c15-bb98-02ec6620ac26",
+          "type": "credit",
+          "timestamp": "2016-12-11T01:35:02.906Z",
+          "currency": "INR",
+          "amount": 4000,
+          "balanceBefore": 6000,
+          "balanceAfter": 10000
+        },
+        {
+          "id": "349e1d50-9323-4ae8-8f89-bc40145ce43a",
+          "type": "debit",
+          "timestamp": "2016-12-10T00:09:42.378Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 10000,
+          "balanceAfter": 9000
+        },
+        {
+          "id": "455f941f-2f53-4121-992f-0f8b52891ce1",
+          "type": "debit",
+          "timestamp": "2016-12-09T08:47:30.177Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 9000,
+          "balanceAfter": 8000
+        },
+        {
+          "id": "f8a2d9e5-e9d7-4cf9-bef5-6d2536645f83",
+          "type": "debit",
+          "timestamp": "2016-12-08T06:59:51.337Z",
+          "currency": "INR",
+          "amount": 1000,
+          "balanceBefore": 8000,
+          "balanceAfter": 7000
+        },
+        {
+          "id": "921d3cea-3aed-4caa-aabe-f4a98979f8b2",
+          "type": "debit",
+          "timestamp": "2016-11-21T15:53:42.395Z",
+          "currency": "INR",
+          "amount": 2000,
+          "balanceBefore": 7000,
+          "balanceAfter": 5000
+        },
+        {
+          "id": "ee24c73a-3085-4c60-b5e4-bff94b13d293",
+          "type": "credit",
+          "timestamp": "2016-11-19T21:09:47.394Z",
+          "currency": "INR",
+          "amount": 5000,
+          "balanceBefore": 5000,
+          "balanceAfter": 10000
+        },
+        {
+          "id": "801c8b16-b53b-450f-bd9c-27fbddd706f4",
+          "type": "credit",
+          "timestamp": "2016-11-19T09:18:06.020Z",
+          "currency": "INR",
+          "amount": 10000,
+          "balanceBefore": 10000,
+          "balanceAfter": 20000
+        }
+      ]
+    }
+  ]
+}
